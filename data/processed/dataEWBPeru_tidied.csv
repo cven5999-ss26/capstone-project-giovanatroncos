@@ -1,0 +1,64 @@
+Name,Chapter Names BI.Account Name,Start_Date__c,Completion_Date__c,End_Date__c,Project_Status__c,Project_Type__c,Discipline__c,Project Beneficiaries
+Water; Sanitation &  Electrification (Hygiene),University of California Santa Barbara Chapter,3/1/04,6/14/12,6/14/12,Complete,Sanitation,NA,500
+Water Supply For Village,Florida State University - FAMU Chapter,11/28/07,4/22/14,4/22/14,Complete,Water Supply,NA,600
+Water Purificaton/Expansion,Florida State University - FAMU Chapter,5/17/09,4/22/14,4/22/14,Complete,Water Supply,NA,600
+"Vista Alegre, Peru - Water Supply Phase II",Sonoma County Professional Chapter,11/7/23,11/23/24,2/9/26,Complete,Water Supply,Water Distribution;Water Storage;Water Treatment,112
+Vista Alegre - Water Supply,Sonoma County Professional Chapter,3/31/17,11/30/18,4/6/21,Complete,Water Supply,Water Distribution;Water Storage;Water Treatment,110
+"Vina Vieja, Peru - Water Supply",University of Texas San Antonio Chapter,9/18/11,12/31/16,10/3/18,Complete,Water Supply,Water Distribution,500
+"Tuni Grande, Peru - Water Supply (Distribution)",Utah State University Chapter,7/11/11,8/26/12,8/26/12,Complete,Water Supply,Water Distribution,300
+The Compone Irrigation Network Project,University of Maryland College Park Chapter,10/29/09,10/13/11,1/1/15,Complete,Agriculture,NA,300
+"Tanguche, Peru - Water Supply",University of Colorado Boulder Chapter,2/29/12,11/6/15,11/6/15,Complete,Water Supply,NA,2500
+"Saparcon Bajo, Peru - Water Supply",University of California Davis Chapter,1/4/22,1/15/25,NA,Active,Water Supply,Water Distribution;Water Storage;Water Treatment,450
+"Sapanccota, Peru - Structures",Utah State University Chapter,5/22/13,8/1/25,NA,Active,Structures,Building,90
+"Santa Cruz, Peru - Agriculture",Greater Austin Chapter,5/26/15,6/30/17,10/9/19,Complete,Agriculture,Water Storage,300
+Sanka; Peru,University of California Santa Barbara Chapter,4/1/09,6/14/12,6/14/12,Complete,Water Supply,NA,300
+"San Leon, Peru - Water Supply",University of Colorado Boulder Chapter,6/17/02,6/15/08,11/6/15,Complete,Water Supply,NA,200
+"San Jose, Peru - Water Supply",Sonoma County Professional Chapter,3/9/17,7/1/17,7/1/17,Complete,Water Supply,Water Storage;Water Treatment,70
+"Samne-La Pitajaya, Peru - Water Supply",Princeton University Chapter,10/24/11,10/30/15,10/30/15,Complete,Water Supply,NA,150
+"Samne, Peru - Water Supply",Tri-Cities Tennessee Professional Chapter,12/3/14,9/30/17,9/30/17,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment,800
+"Saccha, Peru - Water Supply",Temple University Chapter,4/16/16,4/1/19,4/1/19,Complete,Water Supply,Water Distribution;Water Storage;Water Treatment,60
+"Pusunchás, Peru - Water Supply",Princeton University Chapter,2/18/16,8/14/21,3/1/23,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment,285
+"Pucutuni, Peru - Water Supply",Walla Walla University Chapter,1/26/14,9/14/14,9/14/14,Complete,Water Supply,Water Distribution;Water Storage,50
+"Peru, Yucuruchi - Water Supply",Kansas City Professional Chapter,4/23/20,2/16/24,3/11/26,Complete,Water Supply,Other;Source Development,107
+"Peru, Prado - Water Supply",Springfield Missouri Professional Chapter,8/5/20,7/25/25,NA,Active,Water Supply,Other;Source Development,100
+"Peru, La Pampa - Water Supply",University of California Davis Chapter,8/18/25,8/21/26,NA,Active,Water Supply,Water Storage,116
+"Peru, Bello Horizonte - Water Supply",Kansas City Professional Chapter,4/15/25,5/1/26,NA,Active,Water Supply,Source Development;Water Storage;Water Treatment,67
+"Pampa Chiri, Peru - Water Supply",Walla Walla University Chapter,5/1/14,9/1/15,9/1/15,Complete,Water Supply,Source Development;Water Distribution;Water Storage,20
+Nuevo Loreto - Water Supply (Rainwater Catchment),Sonoma County Professional Chapter,5/22/12,6/30/16,6/30/16,Complete,Water Supply,Water Distribution;Water Storage;Water Treatment;School,125
+"Nueva Jerusalen, Peru - Water Supply",Sonoma County Professional Chapter,1/23/13,6/28/14,6/28/14,Complete,Water Supply,Water Storage;Water Treatment,100
+Monsefu -Source Development; Water Treatment - Pump - Electric; Pump - Hand,Utah State University Chapter,3/14/05,6/26/06,6/26/06,Complete,Water Supply,Source Development;Water Treatment,600
+"Maras, Peru - Irrigation Reservoir",University of Florida Gainesville Chapter,7/17/18,7/4/21,5/10/24,Complete,Agriculture,Water Storage,300
+Maras,University of Florida Gainesville Chapter,4/4/17,5/20/18,5/20/18,Complete,Water Supply,Other,130
+"Llacamate, Peru - Water Supply",University of Colorado Boulder Chapter,9/2/08,11/6/15,11/6/15,Complete,Water Supply,NA,200
+"Llacamate, Peru - Sanitation",University of Colorado Boulder Chapter,7/30/12,11/6/15,11/6/15,Complete,Sanitation,NA,200
+"Libertad, Peru - Rainwater Catchment",Detroit Professional Chapter,4/9/19,3/11/24,6/24/25,Complete,Water Supply,Water Distribution;Water Storage;Water Treatment,350
+"Labramani, Peru - Energy 2017-18",Walla Walla University Chapter,1/9/18,11/30/18,11/30/18,Complete,Energy,Electricity;Solar,50
+"La Union, Peru - Structures",Utah State University Chapter,5/22/13,5/31/19,4/5/24,Complete,Structures,Building,88
+"La Huaylla, Peru - Water Supply",University of California Davis Chapter,3/3/16,6/30/18,4/7/23,Complete,Water Supply,Water Distribution,1500
+"Japura, Peru - Energy",Walla Walla University Chapter,7/7/15,3/1/17,3/1/17,Complete,Energy,Electricity,370
+"Jaldar, Peru - Water Supply",Sonoma County Professional Chapter,1/23/13,6/28/14,6/28/14,Complete,Water Supply,Water Storage;Water Treatment,125
+"Huatta, Peru - Water Supply (Filtration)",University of California Berkeley Chapter,12/9/14,6/30/17,6/16/18,Complete,Water Supply,Water Treatment,10
+"Huatta, Peru - Water Supply",University of California Berkeley Chapter,1/27/11,7/27/13,7/27/13,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment;School,50
+"Huasta, Peru - Agriculture (Irrigation)",Greater Austin Chapter,11/2/12,1/12/14,1/12/14,Complete,Agriculture,Irrigation System,300
+Huamanzana -Water Distribution; Water Storage - Piped Network; Tank - Prefab,Princeton University Chapter,12/15/08,1/1/11,1/1/11,Complete,Water Supply,Water Distribution;Water Storage,140
+Huamanzana -Latrine - Latrine - Pour Flush; Tank - Prefab,Princeton University Chapter,3/6/05,1/1/11,1/1/11,Complete,Sanitation,Latrine,200
+Huamanzana -Fuel - Biofuel; Improved Cook stoves,Princeton University Chapter,9/1/06,1/1/11,1/1/11,Complete,Energy,Fuel,51
+Huamanzana -Electricity - Solar Panel,Princeton University Chapter,8/1/06,1/1/11,1/1/11,Complete,Energy,Electricity;School,140
+"Huacapongo, Peru - Water Supply",University of Colorado Boulder Chapter,11/7/14,8/30/17,9/30/19,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment,800
+"Grau, Peru - Water Supply",Sonoma County Professional Chapter,5/28/19,11/27/21,2/21/23,Complete,Water Supply,Source Development;Water Storage;Water Treatment,600
+"Compone, Peru - Water Supply",University of Maryland College Park Chapter,8/16/08,1/22/14,1/1/15,Complete,Water Supply,NA,800
+"Compone, Peru - Structures (Centro Compone Bridge)",University of Maryland College Park Chapter,11/17/15,8/31/18,5/3/24,Complete,Structures,Bridge,2500
+"Ciudad de Dios, Peru - Water Supply",University of N. Carolina Chapel Hill Chapter,12/2/06,7/31/10,1/1/13,Complete,Water Supply,NA,1000
+"Ciudad de Dios, Peru - Sanitation (Latrines)",University of N. Carolina Chapel Hill Chapter,2/1/11,7/31/11,1/1/13,Complete,Sanitation,NA,1000
+"Centro, Peru - Water Supply",University of Maryland College Park Chapter,5/29/14,1/1/15,5/3/24,Complete,Water Supply,Water Treatment,800
+"Carancas, Peru - Water Supply (RWC - Primary School)",University of California Berkeley Chapter,2/24/16,8/30/17,8/30/17,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment;School,40
+"Carancas, Peru - Water Supply (RWC - Huanucollo Primary School)",University of California Berkeley Chapter,2/12/12,5/30/15,5/30/15,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment;School,40
+"Carancas, Peru - Water Supply (Filtration)",University of California Berkeley Chapter,3/20/14,6/30/17,6/30/17,Complete,Water Supply,Water Treatment;School,40
+"Carancas, Peru - Water Supply",University of California Berkeley Chapter,3/1/12,7/18/14,7/18/14,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment;School,40
+"Amazonas, Peru - Water Supply",Sonoma County Professional Chapter,9/20/21,2/11/23,4/11/24,Complete,Water Supply,Source Development;Water Storage;Water Treatment,430
+"Alto Pucarayllo, Peru - Structures",Utah State University Chapter,5/22/13,8/2/25,NA,Active,Structures,Building,90
+"Abra Malaga, Peru - Sanitation",University of Connecticut Chapter,6/15/17,6/30/20,6/11/25,Complete,Sanitation,Latrine,40
+"San Francisco, Peru - Water Supply",Greater Houston Professional Chapter,5/17/19,2/29/20,1/20/23,Complete,Water Supply,Source Development;Water Distribution;Water Storage;Water Treatment,400
+"Payorote, Peru - Water Supply (Rainwater Catchment)",Greater Houston Professional Chapter,9/8/15,11/26/16,11/26/16,Complete,Water Supply,Source Development,250
+"Mariscal Castilla, Peru - Rainwater Harvesting",Greater Houston Professional Chapter,4/27/17,9/30/19,1/20/23,Complete,Water Supply,Water Distribution;Water Storage;Water Treatment,102
+"Floating Dock; Payorote, Peru - Structures",Greater Houston Professional Chapter,5/8/17,10/30/22,2/21/25,Complete,Structures,Other,200

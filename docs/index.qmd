@@ -1,0 +1,169 @@
+---
+title: "Give your project a title"
+author:
+  - name: "Your Full Name"
+    orcid: "0000-0000-0000-0000"
+    email: "your.email@colorado.edu"
+    affiliation:
+      - name: "University of Colorado Boulder"
+        department: "Department of Civil, Environmental and Architectural Engineering"
+        city: "Boulder"
+        state: "CO"
+        country: "USA"
+date: today
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(here)
+library(readxl)
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+EWB_peru <- read_csv(here("data", "raw", "dataEWBPeru.csv"), n_max = 63)
+glimpse(EWB_peru)
+
+
+```
+
+# Introduction
+
+This dataset contains information on **63 Engineers Without Borders (EWB-USA) projects in Peru**, with project start dates ranging from **2002 to 2025**. Each row represents one project, and the **11 columns** include the project name, online record link, responsible chapter, country, start date, completion date, end date, project status, project type, engineering discipline, and number of beneficiaries.The projects include **45 water supply projects, 5 sanitation projects, 5 structures projects, 4 agriculture projects, and 4 energy projects**. The dataset records **57 completed projects and 6 active projects**. Some fields have missing values, particularly engineering discipline and end date. For analysis in R, the total row, blank row, and filter notes should be excluded.These data can be used to examine EWB’s project portfolio in Peru, compare project types and chapter involvement, explore project timelines, and summarize reported beneficiaries.
+
+# Methods
+
+## Reading the Data
+
+```{r}
+library(tidyverse)
+library(here)
+ewb_projects <- read_csv(
+  here("data", "raw", "dataEWBPeru.csv"))
+
+
+```
+
+## Data Exploration Approach
+
+## Initial Data Tidying
+
+```{r}
+#quitar fila de total y notas
+ewb_clean <- ewb_projects |>
+  filter(!is.na(`VV Link`))
+
+```
+
+```{r}
+#quitar las columans de pais y link 
+ewb_clean <- ewb_clean |>
+  select(-Country.Country_Name__c, -`VV Link`)
+```
+
+```{r}
+#quitar los numeros al inicio del nombre proyecto
+ewb_clean <- ewb_clean |>
+  mutate(
+    Name = str_remove(Name, "^\\s*\\d+\\)\\s*")
+  )
+
+```
+
+```{r}
+
+```
+
+```{r}
+dir.create(here::here("data", "processed"), recursive = TRUE, showWarnings = FALSE)
+write_csv(ewb_clean,here::here("data", "processed", "dataEWBPeru_tidied.csv"))
+```
+
+# Results
+
+\[This will be the core of your analysis with specific requirements\]
+
+## Initial Data Exploration 
+
+```{r}
+#View the first few rows:
+head(ewb_projects)
+glimpse(ewb_projects)
+```
+
+```{r}
+#Check dimensions
+dim(ewb_projects)
+
+
+```
+
+```{r}
+#summarize projects by project type 
+ewb_projects |>
+  filter(!is.na(`VV Link`)) |>
+  group_by(Project_Type__c) |>
+  summarize(
+    number_of_projects = n(),
+    reported_beneficiaries = sum(`Project Beneficiaries`, na.rm = TRUE),
+    mean_beneficiaries = mean(`Project Beneficiaries`, na.rm = TRUE),
+    median_beneficiaries = median(`Project Beneficiaries`, na.rm = TRUE),
+    .groups = "drop")
+```
+
+```{r}
+head(ewb_clean)
+glimpse(ewb_clean)
+```
+
+```{r}
+dim(ewb_clean)
+```
+
+```{r}
+#calcular estadisticas por tipo de proyecto
+ewb_clean |>
+  group_by(Project_Type__c) |>
+  summarize(
+    number_of_projects = n(),
+    mean_beneficiaries = mean(`Project Beneficiaries`, na.rm = TRUE),
+    median_beneficiaries = median(`Project Beneficiaries`, na.rm = TRUE),
+    min_beneficiaries = min(`Project Beneficiaries`, na.rm = TRUE),
+    max_beneficiaries = max(`Project Beneficiaries`, na.rm = TRUE),
+    .groups = "drop")
+```
+
+```{r}
+#agrupar por estado de proyecto
+ewb_clean |>
+  group_by(Project_Status__c) |>
+  summarize(
+    number_of_projects = n(),
+    mean_beneficiaries = mean(`Project Beneficiaries`, na.rm = TRUE),
+    median_beneficiaries = median(`Project Beneficiaries`, na.rm = TRUE),
+    .groups = "drop"
+  )
+```
+
+# Conclusions
+
+## Summary of Findings
+
+- The cleaned dataset contains 63 EWB projects in Peru and 9 variables.
+
+- Cleaning removed the total row and footer notes, the country column because all projects are in Peru , and the link column because it was unnecessary for the analysis. also took out the numeric prefixes from project names, i used google to find the code for this cleaning
+
+- from the 63 projects, 57 are completed and 6 are active .
+
+- Water Systems are the most common project type
+
+## Questions and Next Steps
+
+- since my dataset includes both active and completed projects , how should I handle missing end date? should I treat them differently depending on the status of the project?
