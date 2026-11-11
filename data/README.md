@@ -61,7 +61,7 @@ Students compiled and processed the data under the supervision of senior enginee
 5.  Environmental/experimental conditions: highland and jungle of Peru 
 
 6.  Describe any quality-assurance procedures performed on the data: 
-most information related to water quality is a result of formal un lab testing  
+All the projects were deliver to communities once they were done with construction  
 
 7.  People involved with sample collection, processing, analysis and/or
     submission:n/a
@@ -82,3 +82,4 @@ Project Beneficiaries	= Reported number of people benefiting from the project.
 Data files:only data files can be share 
 
 Contact information: Giovana Troncos Correa - EWB USA Country Manager ,EWB USA,  giovana.troncos@ewb-usa.org , 
+
